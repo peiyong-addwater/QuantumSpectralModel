@@ -1,0 +1,10 @@
+{
+  "csv_path": "results/tables/ablation_aggregates/synthetic__singular-spectrum-only/synthetic_runs.csv",
+  "manifest_id": "synthetic",
+  "missing_job_slugs": [],
+  "n_complete": 240,
+  "n_missing": 0,
+  "n_rows": 240,
+  "scan_root": "results/runs/synthetic_ablation_singular-spectrum-only",
+  "selected_encoders": null
+}

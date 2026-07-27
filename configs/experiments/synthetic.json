@@ -1,0 +1,99 @@
+{
+  "manifest_id": "synthetic",
+  "description": "Unified synthetic eigengap/singular encoder-depth-seed experiment grid, including trainable patch SU(4) and non-overlap patch block-Hamiltonian encoders, with explicit diagnostic checkpoints.",
+  "grid": {
+    "datasets": ["synthetic-eigengap", "synthetic-singular"],
+    "representations": ["synthetic"],
+    "encoders": [
+      "fixed-ry",
+      "fixed-ry-rz",
+      "trainable-frequency-ry",
+      "patch-su4",
+      "trainable-patch-su4",
+      "non-overlap-patch-block-hamiltonian",
+      "symmetric-hamiltonian",
+      "block-hamiltonian"
+    ],
+    "reupload_depths": [1, 2, 4, 8, 16, 32],
+    "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    "learning_rates": [0.01],
+    "batch_sizes": [64],
+    "class_subsets": [null]
+  },
+  "data": {
+    "data_root": "data/raw/pendigits",
+    "data_seed": 0,
+    "download_data": false,
+    "validation_fraction": 0.1,
+    "standardize": true
+  },
+  "synthetic": {
+    "n_samples": 4096,
+    "synthetic_noise_epsilon": 0.05,
+    "datasets": {
+      "synthetic-eigengap": {
+        "synthetic_dim": 4,
+        "synthetic_threshold": 0.75
+      },
+      "synthetic-singular": {
+        "synthetic_rows": 8,
+        "synthetic_cols": 2,
+        "synthetic_threshold": 2.0
+      }
+    }
+  },
+  "training": {
+    "steps": 2000,
+    "eval_batch_size": 256,
+    "weight_decay": 0.0,
+    "log_every": 50,
+    "eval_every": 100
+  },
+  "model": {
+    "mixer_scale": 0.01,
+    "projector_renormalize": true,
+    "ry_alpha": 1.0,
+    "rz_beta": 1.0,
+    "tf_init_scale": 1.0,
+    "tf_init_noise": 0.01,
+    "patch_scale": 1.0,
+    "patch_map_init_noise": 0.01,
+    "trainable_times": true,
+    "fixed_time": null,
+    "initial_state": "plus",
+    "dtype": "float64",
+    "track_readout_leakage": false
+  },
+  "outputs": {
+    "output_root": "results/runs",
+    "experiment_name": "synthetic",
+    "checkpoint": true,
+    "checkpoint_every": 0,
+    "checkpoint_steps": "0,50,100,200,500,1000,1500,2000"
+  },
+  "slurm": {
+    "venv_dir": ".venv",
+    "slurm_dir": "slurm/synthetic",
+    "log_dir": "sbatch_log",
+    "job_name_prefix": "qfm_synthetic",
+    "partition": null,
+    "qos": null,
+    "reservation": null,
+    "constraint": null,
+    "exclude": null,
+    "time": "8:00:00",
+    "mem": "32GB",
+    "gpus_per_node": 1,
+    "cpus_per_gpu": 16,
+    "nodes": 1,
+    "ntasks_per_node": 1,
+    "mail_type": "ALL",
+    "mail_user": null,
+    "modules": ["uv/0.9.5", "cuda/12.9.1", "openmpi"]
+  },
+  "diagnostics": {
+    "diagnostic_batch_size": 32,
+    "diagnostic_seed": 0,
+    "near_zero_tol": 1e-10
+  }
+}

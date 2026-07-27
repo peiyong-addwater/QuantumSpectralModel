@@ -1,0 +1,1714 @@
+{
+  "consistency_issues": [],
+  "coverage": {
+    "datasets": [
+      "pendigits",
+      "synthetic-eigengap",
+      "synthetic-singular"
+    ],
+    "depths": [
+      1,
+      8,
+      32
+    ],
+    "encoders": [
+      "block-hamiltonian",
+      "fixed-ry",
+      "fixed-ry-rz",
+      "non-overlap-patch-block-hamiltonian",
+      "patch-su4",
+      "symmetric-hamiltonian",
+      "trainable-frequency-ry",
+      "trainable-patch-su4"
+    ],
+    "modes": [
+      "checkpoints",
+      "final"
+    ],
+    "representations": [
+      "dyn",
+      "sta4",
+      "synthetic"
+    ],
+    "seeds": [
+      0
+    ],
+    "splits": [
+      "validation"
+    ]
+  },
+  "diagnostic_batch_size_counts": {
+    "32": 192
+  },
+  "dirty_git_counts": {
+    "False": 801,
+    "True": 63
+  },
+  "duplicate_record_keys": [],
+  "errors": [],
+  "expected_checks": [
+    {
+      "expected": [
+        "validation"
+      ],
+      "message": "",
+      "missing": [],
+      "name": "split",
+      "observed": [
+        "validation"
+      ],
+      "ok": true,
+      "unexpected": []
+    },
+    {
+      "expected": [
+        32
+      ],
+      "message": "",
+      "missing": [],
+      "name": "diagnostic_batch_size",
+      "observed": [
+        32
+      ],
+      "ok": true,
+      "unexpected": []
+    },
+    {
+      "expected": [
+        8
+      ],
+      "message": "",
+      "missing": [],
+      "name": "spectral_state_max_samples",
+      "observed": [
+        8
+      ],
+      "ok": true,
+      "unexpected": []
+    },
+    {
+      "expected": [
+        1,
+        8,
+        32
+      ],
+      "message": "",
+      "missing": [],
+      "name": "depths",
+      "observed": [
+        1,
+        8,
+        32
+      ],
+      "ok": true,
+      "unexpected": []
+    }
+  ],
+  "hdf5_sidecars": [
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__block-hamiltonian__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__block-hamiltonian__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__block-hamiltonian__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__block-hamiltonian__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__block-hamiltonian__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__block-hamiltonian__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry-rz__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry-rz__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry-rz__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry-rz__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry-rz__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry-rz__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__fixed-ry__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__patch-su4__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__patch-su4__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__patch-su4__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__patch-su4__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__patch-su4__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__patch-su4__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__symmetric-hamiltonian__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__symmetric-hamiltonian__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__symmetric-hamiltonian__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__symmetric-hamiltonian__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__symmetric-hamiltonian__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__symmetric-hamiltonian__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-frequency-ry__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-frequency-ry__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-frequency-ry__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-frequency-ry__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-frequency-ry__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-frequency-ry__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-patch-su4__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-patch-su4__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-patch-su4__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-patch-su4__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-patch-su4__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__dyn__trainable-patch-su4__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__block-hamiltonian__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__block-hamiltonian__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__block-hamiltonian__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__block-hamiltonian__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__block-hamiltonian__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__block-hamiltonian__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry-rz__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry-rz__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry-rz__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry-rz__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry-rz__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry-rz__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__fixed-ry__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__patch-su4__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__patch-su4__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__patch-su4__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__patch-su4__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__patch-su4__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__patch-su4__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__symmetric-hamiltonian__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__symmetric-hamiltonian__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__symmetric-hamiltonian__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__symmetric-hamiltonian__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__symmetric-hamiltonian__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__symmetric-hamiltonian__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-frequency-ry__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-frequency-ry__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-frequency-ry__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-frequency-ry__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-frequency-ry__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-frequency-ry__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-patch-su4__L1__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-patch-su4__L1__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-patch-su4__L32__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-patch-su4__L32__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-patch-su4__L8__lr0.01__bs32__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/pendigits__pendigits__sta4__trainable-patch-su4__L8__lr0.01__bs32__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__block-hamiltonian__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__block-hamiltonian__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__block-hamiltonian__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__block-hamiltonian__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__block-hamiltonian__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__block-hamiltonian__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry-rz__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry-rz__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry-rz__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry-rz__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry-rz__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry-rz__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__fixed-ry__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__patch-su4__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__patch-su4__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__patch-su4__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__patch-su4__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__patch-su4__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__patch-su4__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__symmetric-hamiltonian__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__symmetric-hamiltonian__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__symmetric-hamiltonian__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__symmetric-hamiltonian__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__symmetric-hamiltonian__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__symmetric-hamiltonian__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-frequency-ry__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-frequency-ry__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-frequency-ry__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-frequency-ry__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-frequency-ry__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-frequency-ry__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-patch-su4__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-patch-su4__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-patch-su4__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-patch-su4__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-patch-su4__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-eigengap__synthetic__trainable-patch-su4__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__block-hamiltonian__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__block-hamiltonian__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__block-hamiltonian__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__block-hamiltonian__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__block-hamiltonian__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__block-hamiltonian__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry-rz__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry-rz__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry-rz__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry-rz__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry-rz__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry-rz__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__fixed-ry__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__non-overlap-patch-block-hamiltonian__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__non-overlap-patch-block-hamiltonian__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__non-overlap-patch-block-hamiltonian__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__patch-su4__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__patch-su4__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__patch-su4__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__patch-su4__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__patch-su4__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__patch-su4__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__symmetric-hamiltonian__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__symmetric-hamiltonian__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__symmetric-hamiltonian__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__symmetric-hamiltonian__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__symmetric-hamiltonian__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__symmetric-hamiltonian__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-frequency-ry__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-frequency-ry__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-frequency-ry__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-frequency-ry__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-frequency-ry__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-frequency-ry__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-patch-su4__L1__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-patch-su4__L1__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-patch-su4__L32__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-patch-su4__L32__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-patch-su4__L8__lr0.01__bs64__seed0__checkpoints.h5",
+      "record_count": 8,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    },
+    {
+      "error": "",
+      "error_type": "",
+      "path": "results/tables/latent_state_diagnostics/batched/items/synthetic__synthetic-singular__synthetic__trainable-patch-su4__L8__lr0.01__bs64__seed0__final.h5",
+      "record_count": 1,
+      "schema_version": "latent_state_diagnostics_hdf5_v1",
+      "status": "ok"
+    }
+  ],
+  "hdf5_status_counts": {
+    "ok": 192
+  },
+  "input_dir": "results/tables/latent_state_diagnostics/batched/items",
+  "item_errors": [],
+  "mode_counts": {
+    "checkpoints": 768,
+    "final": 96
+  },
+  "n_cka_rows": 34560,
+  "n_complete": 864,
+  "n_item_errors": 0,
+  "n_json_files": 192,
+  "n_layerwise_rows": 49824,
+  "n_payloads_loaded": 192,
+  "n_records": 864,
+  "n_spectral_state_rows": 8856,
+  "ok": true,
+  "output_paths": {
+    "cka_csv": "results/tables/latent_state_diagnostics/batched_summary_cka.csv",
+    "layerwise_csv": "results/tables/latent_state_diagnostics/batched_summary_layerwise.csv",
+    "records_csv": "results/tables/latent_state_diagnostics/batched_summary_records.csv",
+    "records_json": "results/tables/latent_state_diagnostics/batched_summary_records.json",
+    "report_json": "results/tables/latent_state_diagnostics/batched_summary_report.json",
+    "spectral_state_csv": "results/tables/latent_state_diagnostics/batched_summary_spectral_state.csv"
+  },
+  "pattern": "*.json",
+  "schema_versions": [
+    "latent_state_diagnostics_v1"
+  ],
+  "skip_hdf5_check": false,
+  "spectral_state_max_samples_counts": {
+    "8": 192
+  },
+  "spectral_state_presence_by_encoder": {
+    "block-hamiltonian": {
+      "present": 108
+    },
+    "fixed-ry": {
+      "absent": 108
+    },
+    "fixed-ry-rz": {
+      "absent": 108
+    },
+    "non-overlap-patch-block-hamiltonian": {
+      "absent": 108
+    },
+    "patch-su4": {
+      "absent": 108
+    },
+    "symmetric-hamiltonian": {
+      "present": 108
+    },
+    "trainable-frequency-ry": {
+      "absent": 108
+    },
+    "trainable-patch-su4": {
+      "absent": 108
+    }
+  },
+  "split_counts": {
+    "validation": 864
+  },
+  "status_counts": {
+    "complete": 801,
+    "complete_dirty_git": 63
+  },
+  "updated_at_utc": "2026-06-13T07:30:41.061156+00:00",
+  "warnings": []
+}

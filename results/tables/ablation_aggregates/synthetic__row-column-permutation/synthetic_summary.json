@@ -1,0 +1,10 @@
+{
+  "csv_path": "results/tables/ablation_aggregates/synthetic__row-column-permutation/synthetic_runs.csv",
+  "manifest_id": "synthetic",
+  "missing_job_slugs": [],
+  "n_complete": 1920,
+  "n_missing": 0,
+  "n_rows": 1920,
+  "scan_root": "results/runs/synthetic_ablation_row-column-permutation",
+  "selected_encoders": null
+}

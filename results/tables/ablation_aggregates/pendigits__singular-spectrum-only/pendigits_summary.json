@@ -1,0 +1,10 @@
+{
+  "csv_path": "results/tables/ablation_aggregates/pendigits__singular-spectrum-only/pendigits_runs.csv",
+  "manifest_id": "pendigits",
+  "missing_job_slugs": [],
+  "n_complete": 240,
+  "n_missing": 0,
+  "n_rows": 240,
+  "scan_root": "results/runs/pendigits_ablation_singular-spectrum-only",
+  "selected_encoders": null
+}

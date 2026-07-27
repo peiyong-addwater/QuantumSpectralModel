@@ -1,0 +1,10 @@
+{
+  "csv_path": "results/tables/pendigits_runs.csv",
+  "manifest_id": "pendigits",
+  "missing_job_slugs": [],
+  "n_complete": 1920,
+  "n_missing": 0,
+  "n_rows": 1920,
+  "scan_root": "results/runs/pendigits",
+  "selected_encoders": null
+}
